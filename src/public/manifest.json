@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "Post It!",
+  "name": "¡Postéalo!",
+  "description": "description",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "img/icons/72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#FAFAFA",
+  "theme_color": "#8C0000",
+  "start_url": "./?utm_source=web_app_manifest",
+  "display": "standalone",
+  "orientation": "any",
+  "shortcuts": [
+    {
+        "name":"mensajes",
+        "short_name": "Mensajes",
+        "description": "Enlace de mensajes",
+        "url": "pages/mensajes.html",
+        "icons": [
+            {
+                "src": "img/icons/144x144.png",
+                "sizes":"144x144"
+            }
+        ]
+
+    },
+    {
+      "name":"fotos",
+      "short_name": "Fotos",
+      "description": "Enlace de fotos",
+      "url": "pages/fotos.html",
+      "icons": [
+          {
+              "src": "img/icons/144x144.png",
+              "sizes":"144x144"
+          }
+      ]
+
+  },
+  {
+    "name":"geolocalizacion",
+    "short_name": "Geolocalización",
+    "description": "Enlace de geolocalización",
+    "url": "pages/geolocalizacion.html",
+    "icons": [
+        {
+            "src": "img/icons/144x144.png",
+            "sizes":"144x144"
+        }
+    ]
+
+}
+  ],
+  "screenshots":[
+    {
+        "src":"img/icons/512x512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+        
+    }
+  ]
+}

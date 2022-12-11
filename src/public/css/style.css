@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    overscroll-behavior-y: contain;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.body-content {
+    background: rgb(154,0,0);
+    background: linear-gradient(90deg, rgba(154,0,0,1) 0%, rgba(129,0,0,1) 25%, rgba(14,105,0,1) 100%);
+    color: white;
+}
+
+.contenedor {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contenedor input {
+    margin-top: 20px;
+    
+}
+
+.contenedor button {
+    margin-top: 20px;
+}
+
+.texto-oscuro {
+    color: black;
+}
+
+.texto-verde {
+    color: rgb(20, 122, 0);
+}
+
+.texto-rojo {
+    color: rgb(122, 0, 0);
+}
+
+#fondo-oscuro {
+    background-color: black;
+}
