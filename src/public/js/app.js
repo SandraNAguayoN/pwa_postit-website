@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/proyecto-pwa-entrega/sw.js';
+var swLocation = 'https://pwa-postit-website.vercel.app/sw.js';
 
 if (navigator.serviceWorker) {
     if (url.includes('localhost')) {
