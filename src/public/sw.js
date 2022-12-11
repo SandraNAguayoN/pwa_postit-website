@@ -166,9 +166,9 @@ self.addEventListener('push', e => {
         badge: 'img/favicon.ico',
         image: 'img/christmas-icons/notifications/notifications-1.png',
         vibrate: [125,75,125,275,200,275,125,75,125,275,200,600,200,600],
-        openUrl: '/',
+        openUrl: 'https://pwa-postit-website.vercel.app/',
         data: {            
-            url: '/',
+            url: 'https://pwa-postit-website.vercel.app/',
             id: data.usuario
         },
         // accciones personalizadas: editar, eliminar o lo que se requiera
