@@ -33,7 +33,7 @@
   ],
   "background_color": "#FAFAFA",
   "theme_color": "#8C0000",
-  "start_url": "./?utm_source=web_app_manifest",
+  "start_url": "https://pwa-postit-website.vercel.app/",
   "display": "standalone",
   "orientation": "any",
   "shortcuts": [
