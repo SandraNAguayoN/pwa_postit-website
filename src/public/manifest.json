@@ -3,7 +3,7 @@
   "short_name": "Post It!",
   "name": "¡Postéalo!",
   "description": "description",
-  "scope": "https://pwa-postit-website.vercel.app/",
+  "scope": "/",
   "icons": [
     {
       "src": "img/icons/72x72.png",
