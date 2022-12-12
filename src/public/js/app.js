@@ -51,7 +51,7 @@ function  mostrarNotificacionMensaje(mensaje, usuario) {
         usuario: usuario
     }
 
-    fetch("/api/push", {
+    fetch("https://pwa-postit-website.vercel.app/api/push", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
