@@ -16,7 +16,7 @@ const APP_SHELL = [
 
     //Css
     "css/style.css",
-    //"css/tree.css",
+    "css/tree.css",
     "css/christmas-icons.css",
 
     //Json
