@@ -67,6 +67,9 @@ const APP_SHELL = [
     "img/christmas-icons/toy.png",
     "img/christmas-icons/notifications/notifications-1.png",
     "img/christmas-icons/notifications/notifications-2.png",
+    "img/christmas-icons/about/bauble-1.png",
+    "img/christmas-icons/about/bauble-2.png",
+    "img/christmas-icons/about/bauble-3.png",
 
     //Scripts
     "js/app.js",

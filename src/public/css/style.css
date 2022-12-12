@@ -47,3 +47,35 @@ html, body {
 #fondo-oscuro {
     background-color: black;
 }
+
+#contenedor-sobre {
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 65%;
+    font-size: 130%;
+    border: 2px solid ;
+    border-radius: 10px;
+    border-color: rgb(167, 0, 0) rgb(167, 0, 0) green green;
+  
+    
+}
+
+#titulo-sobre {
+    font-family: lobster;
+}
+
+#contenedor-esferas {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.img-esfera {
+    display: inline-block;
+    height: auto;
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
