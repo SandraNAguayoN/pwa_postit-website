@@ -80,7 +80,7 @@ function crearMensajeHTML(mensaje, personaje) {
         </div>
         <div class="bubble-container">
             <div class="bubble">
-                <h3 class="texto-rojo">@${personaje}</h3>
+                <h3 class="texto-rojo" style="font-size: 150%;">@${personaje}</h3>
                 <br/>
                 <p class="texto-verde">${mensaje}</p>
             </div>        
@@ -111,7 +111,7 @@ function crearMensajeFotoHTML(mensaje, personaje, foto) {
         </div>
         <div class="bubble-container">
             <div class="bubble">
-                <h3 class="texto-rojo">@${personaje}</h3>
+                <h3 class="texto-rojo" style="font-size: 150%;">@${personaje}</h3>
                 <br/>
                 <p class="texto-verde">${mensaje}</p>
                 `;
@@ -120,7 +120,7 @@ function crearMensajeFotoHTML(mensaje, personaje, foto) {
     if (foto) {
         content += `
                 <br>
-                <img class="foto-mensaje" src="${foto}" style="width: 300; height:300px;">
+                <img class="foto-mensaje" src="${foto}" style="width:50%; height: auto; ">
         `;
 
     }
@@ -152,7 +152,7 @@ function crearMensajeGeoHTML(mensaje, personaje, lat, lng) {
             </div>
             <div class="bubble-container">
                 <div class="bubble">
-                    <h3 class="texto-rojo">@${personaje}</h3>
+                    <h3 class="texto-rojo" style="font-size: 150%;">@${personaje}</h3>
                     <br/>
                     <p class="texto-verde">${mensaje}</p>
                     </div>        
