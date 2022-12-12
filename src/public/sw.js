@@ -162,9 +162,9 @@ self.addEventListener('push', e => {
     const title = data.titulo;
     const options = {
         body: data.cuerpo,       
-        icon: `https://pwa-postit-website.vercel.app/img/christmas-icons/${ data.usuario }.png`,
-        badge: 'https://pwa-postit-website.vercel.app/img/favicon.ico',
-        image: 'https://pwa-postit-website.vercel.app/img/christmas-icons/notifications/notifications-1.png',
+        icon: `img/christmas-icons/${ data.usuario }.png`,
+        badge: 'img/favicon.ico',
+        image: 'img/christmas-icons/notifications/notifications-1.png',
         vibrate: [125,75,125,275,200,275,125,75,125,275,200,600,200,600],
         openUrl: 'https://pwa-postit-website.vercel.app/',
         data: {            
@@ -176,12 +176,12 @@ self.addEventListener('push', e => {
             {
                 action: 'star-action',
                 title: 'Star',
-                icon: 'https://pwa-postit-website.vercel.app/img/christmas-icons/star.png'
+                icon: 'img/christmas-icons/star.png'
             },
             {
                 action: 'candy-1-action',
                 title: 'Candy 1',
-                icon: 'https://pwa-postit-website.vercel.app/img/christmas-icons/candy-1.png'
+                icon: 'img/christmas-icons/candy-1.png'
             }
         ]
     };
